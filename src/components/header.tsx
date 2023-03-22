@@ -3,7 +3,7 @@ import Head from "next/head"
 const Header = () => {
   return (
     <Head>
-      <title>Monolink - Homepage to bookmarking tool</title>
+      <title>Monolink - Become a Beta-Tester</title>
       <meta
         name='description'
         content='Organize your web experience with Monolink, a modern and beautiful bookmarking tool'
