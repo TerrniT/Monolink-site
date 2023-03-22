@@ -2,9 +2,7 @@ import React from "react"
 import Image from "next/image"
 import { Tags } from "@/types/types"
 
-interface TagProps extends Tags {}
-
-const Tag = ({ imageUrl, imageSrc }: TagProps) => {
+const Tag = ({ imageUrl, imageSrc }: Tags) => {
   return (
     <>
       {imageUrl ? (

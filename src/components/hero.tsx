@@ -7,6 +7,7 @@ import { useState } from "react"
 import Paragraph from "./atoms/Paragraph"
 
 
+
 const Hero = () => {
   //mock  users
   const [modal, setModalAtom] = useAtom(modalAtom)
@@ -27,7 +28,7 @@ const Hero = () => {
         experience with Monolink
       </h1>
       <Paragraph>
-        With the ability to store and access all your important links in one location, you'll never
+        With the ability to store and access all your important links in one location, you&apos;ll never
         have to worry about losing or forgetting a valuable webpage again
       </Paragraph>
 
@@ -71,3 +72,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+

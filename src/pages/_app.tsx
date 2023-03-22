@@ -1,4 +1,4 @@
-import { Inter, M_PLUS_1 } from "next/font/google"
+import { Inter } from "next/font/google"
 import "@/styles/globals.css"
 import { AppProps } from "next/app"
 import Modal from "@/components/modal"
